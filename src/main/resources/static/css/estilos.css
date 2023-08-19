@@ -1,0 +1,168 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+body{
+    background-color: #020617;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    background-color: #020617;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-nav img{
+    margin: 10pxs;
+}
+
+.container-nav img:hover{
+    cursor: pointer;
+}
+
+.images{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(85deg) brightness(109%) contrast(101%);
+}
+
+.title-nav{
+    margin-right: 600px;
+}
+
+.title-nav:hover{
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: auto;
+    width: 25px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-icon:hover{
+    border-bottom: 1px solid white;
+    border-bottom-width: 1px;
+}
+
+.container-nav li{
+    list-style: none;
+    margin: 5px;
+}
+
+.nav-icon:hover{
+    border-bottom: 1px solid white;
+    border-bottom-width: 1px;
+}
+
+.customer-menu{
+    position: absolute;
+    display: none;
+}
+
+.customer-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .customer-menu{
+    display: block;
+}
+
+.product-menu{
+    position: absolute;
+    display: none;
+}
+
+.product-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .product-menu{
+    display: block;
+} 
+
+.employee-menu{
+    position: absolute;
+    display: none;
+}
+
+.employee-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .employee-menu{
+    display: block;
+}
+
+/*CONTACT*/
+.contact{
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+
+/*HOME*/
+.home{
+    display: flex;
+    flex-direction: row;
+    margin: 80px;
+    height: 200px;
+    width: 500px;
+}
+
+.description-home{
+    margin: 20px;
+}
+
+.description-home h2{
+    margin: 20px 0 20px 0;
+}
+
+.image-home{
+    width: 60px;
+    height: 60px;
+}
+
+
+/*ABOUT*/
+.about{
+    display: flex;
+    height: 100vh;
+    margin: 200px 100px 0;
+    align-items: center;
+}
+
+.image-about{
+    margin: 0 10px 0 0;
+} 
+
+.description-about{
+    margin: 20px;
+}
+
+.description-about h2{
+    margin: 0 0 20px 0;
+}

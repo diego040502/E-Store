@@ -1,0 +1,247 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+body{
+    background-color: #020617;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    background-color: #020617;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-nav img{
+    margin: 10pxs;
+}
+
+.container-nav img:hover{
+    cursor: pointer;
+}
+
+.images{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(85deg) brightness(109%) contrast(101%);
+}
+
+.title-nav{
+    margin-right: 600px;
+}
+
+.title-nav:hover{
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: auto;
+    width: 25px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-nav li{
+    list-style: none;
+    margin: 5px;
+}
+
+.nav-icon:hover{
+    border-bottom: 1px solid white;
+    border-bottom-width: 1px;
+}
+
+.customer-menu{
+    position: absolute;
+    display: none;
+}
+
+.customer-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .customer-menu{
+    display: block;
+}
+
+
+.product-menu{
+    position: absolute;
+    display: none;
+}
+
+.product-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .product-menu{
+    display: block;
+} 
+
+.employee-menu{
+    position: absolute;
+    display: none;
+}
+
+.employee-menu li a:hover{
+    color: #fbbf24;
+}
+
+.container-nav li:hover .employee-menu{
+    display: block;
+}
+
+
+/*CONTACT*/
+
+.contact{
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+
+/*FORMULARIO*/
+.title-form{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.formulario{
+    width: 800px;
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.formulario input{
+    margin: 5px 10px 10px 0;
+    border-radius: 15px;
+    background-color: #1e293b;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+
+.btn-form{
+    margin: 10px 0 10px 100px;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    background-color: #1e293b;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn-form:hover{
+    cursor: pointer;
+    background-color: #475569;
+}
+
+#roles-select{
+    background-color: #1e293b;
+    color: white;
+    margin-top: 6px;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/*TABLE*/
+table{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.table-title{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table-header{
+    background-color: #0f172a;
+}
+
+.table-header th{
+    margin: 10px 0 10px 0;
+    background-color: #0f172a;
+    padding: 10px;
+}
+
+.table-content thead{
+    margin: 10px;
+}
+
+.table-content td{
+    padding: 10px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.actions-icons{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(85deg) brightness(109%) contrast(101%);
+}
+
+.actions-icons img:hover{
+    cursor: pointer;
+}
+
+#roles-id{
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    padding: 3px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+}
+
+.custom-button{
+    margin: 5px;
+    padding: 10px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.custom-button:hover{
+    cursor: pointer;
+}
+
+.delete{
+    background-color: #dc2626;
+}

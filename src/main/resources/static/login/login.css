@@ -1,0 +1,117 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY*/
+body{
+    background-color: #020617;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/*NAVBAR*/
+.navbar{
+    background-color: #020617;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-nav img{
+    margin: 10pxs;
+}
+
+.container-nav img:hover{
+    cursor: pointer;
+}
+
+.images{
+    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(85deg) brightness(109%) contrast(101%);
+}
+
+.title-nav{
+    margin-right: 600px;
+}
+
+.title-nav:hover{
+    cursor: pointer;
+}
+
+.icon{
+    margin-right: auto;
+    width: 25px;
+    height: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-icon:hover{
+    border-bottom: 1px solid white;
+    border-bottom-width: 1px;
+}
+
+.contact{
+    margin-left: auto;
+    width: 25px;
+    height: 25px;
+}
+
+.contact:hover{
+    cursor: pointer;
+}
+
+/*LOGIN*/
+.login{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #334155;
+    padding: 20px;
+}
+
+.login input{
+    background-color: #1e293b;
+    margin: 5px 10px 10px 0;
+    border-radius: 15px;
+    border: none;
+    padding: 5px;
+    color: white;
+}
+
+.login h2{
+    margin: 10px 0 20px 0;
+}
+
+.login label{
+    margin: 10px 0 10px 0;
+}
+
+#btn-login{
+    border-radius: 15px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+#btn-login:hover{
+    cursor: pointer;
+}
